@@ -1,0 +1,49 @@
+.light-theme {
+  --very-dark-desaturated-blue-main-background: var(
+    --light-gray-main-background
+  );
+
+  --white: var(--very-dark-grayish-yellow);
+
+  --very-dark-d-blue-toggle-background-keypad-background: var(
+    --grayish-red-toggle-background-keypad-background
+  );
+
+  --very-dark-desaturated-blue-screen-background: var(
+    --very-light-gray-screen-background
+  );
+
+  --desaturated-dark-blue-key-background: var(
+    --dark-moderate-cyan-key-background
+  );
+
+  --desaturated-dark-blue-key-shadow: var(--very-dark-cyan-key-shadow);
+
+  --red-key-background-toggle: var(--orange-key-background-toggle);
+
+  --dark-red-key-shadow: var(--dark-orange-key-shadow);
+}
+
+.dark-theme {
+  --very-dark-desaturated-blue-main-background: var(
+    --very-dark-violet-main-background
+  );
+
+  --white: var(--light-yellow);
+
+  --very-dark-d-blue-toggle-background-keypad-background: var(
+    --very-dark-violet-toggle-background-keypad-background-screen-background
+  );
+
+  --very-dark-desaturated-blue-screen-background: var(
+    --very-dark-violet-toggle-background-keypad-background-screen-background
+  );
+
+  --desaturated-dark-blue-key-background: var(--dark-violet-key-background);
+
+  --desaturated-dark-blue-key-shadow: var(--vivid-magenta-key-shadow);
+
+  --red-key-background-toggle: var(--pure-cyan-key-background-toggle);
+
+  --dark-red-key-shadow: var(--soft-cyan-key-shadow);
+}

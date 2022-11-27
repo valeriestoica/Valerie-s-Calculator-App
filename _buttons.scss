@@ -1,0 +1,35 @@
+button {
+  cursor: pointer;
+  border: 0;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  font-family: inherit;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--desaturated-dark-blue-key-background);
+  box-shadow: 0 0.3rem 0.1rem var(--desaturated-dark-blue-key-shadow);
+}
+
+button:active {
+  box-shadow: none;
+  font-size: 1.6rem;
+}
+
+.reset,
+.del {
+  background-color: var(--desaturated-dark-blue-key-background);
+  color: #fff;
+}
+
+.reset {
+  grid-column: 1 / span 2;
+}
+
+.equals {
+  color: #fff;
+  background-color: var(--red-key-background-toggle);
+  box-shadow: 0 0.3rem 0.1rem var(--dark-red-key-shadow);
+
+  grid-column: 3 / span 2;
+}
