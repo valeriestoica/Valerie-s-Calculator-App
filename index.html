@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/src/css/main.scss" />
+
+    <script type="module" src="/src/js/controller.js"></script>
+
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <div class="container">
+      <main class="calculator">
+        <!-- HEADER -->
+
+        <div class="header">
+          <h2 class="heading">calc</h2>
+          <p class="theme-text">Theme</p>
+          <div class="switch-numbers">
+            <p class="theme-number">1</p>
+            <p class="theme-number">2</p>
+            <p class="theme-number">3</p>
+          </div>
+          <div class="switcher">
+            <div class="switcher__switch"></div>
+          </div>
+        </div>
+
+        <!-- DISPLAY -->
+
+        <div class="display">
+          <p class="display__history"></p>
+          <p class="display__main"></p>
+        </div>
+
+        <!-- KEYBOARD -->
+        <div class="keyboard">
+          <!-- Row 1 -->
+
+          <button class="number">7</button>
+          <button class="number">8</button>
+          <button class="number">9</button>
+          <button class="del">del</button>
+
+          <!-- Row 2 -->
+
+          <button class="number">4</button>
+          <button class="number">5</button>
+          <button class="number">6</button>
+          <button class="operator">+</button>
+
+          <!-- Row 3 -->
+
+          <button class="number">1</button>
+          <button class="number">2</button>
+          <button class="number">3</button>
+          <button class="operator">-</button>
+
+          <!-- Row 4 -->
+
+          <button class="number">.</button>
+          <button class="number">0</button>
+          <button class="operator">/</button>
+          <button class="operator">x</button>
+
+          <!-- Row 4 -->
+
+          <button class="reset">reset</button>
+          <button class="equals">=</button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
